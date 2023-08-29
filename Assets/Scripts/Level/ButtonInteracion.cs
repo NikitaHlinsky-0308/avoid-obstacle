@@ -12,7 +12,7 @@ public class ButtonInteracion : MonoBehaviour
 
     public void MoveToScene()
     {
-        SceneManager.LoadScene(nameSceneToLoad);
+        SceneManager.LoadSceneAsync(nameSceneToLoad);
     }
 
     public void ShowPanel()
